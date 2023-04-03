@@ -1,0 +1,822 @@
+<html>
+    <head>
+        <title>Kempes Master League</title>
+        <link rel="stylesheet" type="text/css" href="Estilos.css">
+        <meta charset="utf-8">
+        <link rel="icon" href="Escudos/Logo-Kempes-(Anti-patria).png">
+    </head>
+    <body>
+        <header class="sticky-header">
+            <div class="header-div">
+                <div class="header-logo">
+                    <img src="Escudos/Logo-Kempes-(Anti-patria).png" width="95px" height="95px">
+                </div>
+                <div class="redes">
+                    <img src="PNGs/twitch.png" width="30px" height="30px">
+                    <img src="PNGs/twitter.png" width="30px" height="30px">
+                    <img src="PNGs/instagram.png" width="30px" height="30px">
+                </div>
+                <div class="header-search">
+                    <input type="search" placeholder="Ingresa Equipo, Jugador, División..." size="30" maxlength="60">
+                    <img src="PNGs/search.svg" width="30px" height="30px">
+                    <!-- Acá no pude colocar el icono de la lupa dentro del input -->
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"> <img class="icon-home" src="PNGs/home.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">COMPETICIONES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">CLUBES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">JUGADORES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                    <a href="#">TRANSFERENCIAS <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li class="li-button">
+                        <button class="login"><img src="PNGs/person.svg"> Iniciar Sesión </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="league-box">
+            <h1>LIGA A</h1>
+            <div class="last-games">
+                <h4>ÚLTIMOS PARTIDOS</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-carga">Cargado</td>
+                        <td class="td-fecha">Fecha</td>
+                        <td class="td-local">Equipo Local</td>
+                        <td class="td-resultado-title"></td>
+                        <td class="td-visitante">Equipo Visitante</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td> <!-- No supe resolver cómo colorear parte del div, y no en su totalidad -->
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                </table>
+                <div class="ir-competicion-div">
+                    <a class="ir-competicion" href="Kempes-Competicion Completa.html"> Ver Competición completa <img class="navigate-next" src="PNGs/navigate_next.svg" width="20px" height="20px"></a>
+                </div>
+            </div>
+            <div class="standings">
+                <h4>POSICIONES</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-posicion">#</td>
+                        <td class="td-club">Club</td>
+                        <td class="td-pj">PJ</td>
+                        <td class="td-dg">DG</td>
+                        <td class="td-puntos">Pts</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">1</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #6CBF58">2</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">3</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #6CBF58">4</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">5</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #F0BE99">6</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #F0BE99">7</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #EE9898;">8</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                </table>
+                <div class="referencias">
+                    <div class="ascenso">Cuadrangular final</div>
+                    <div class="promocion-descenso-a">Promocion vs B</div>
+                    <div class="descenso-a">Descenso</div>
+                </div>
+            </div>
+        </div>   
+        <div class="league-box">
+            <h1>LIGA B</h1>
+            <div class="last-games">
+                <h4>ÚLTIMOS PARTIDOS</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-carga">Cargado</td>
+                        <td class="td-fecha">Fecha</td>
+                        <td class="td-local">Equipo Local</td>
+                        <td class="td-resultado-title"></td>
+                        <td class="td-visitante">Equipo Visitante</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                </table>
+                <div class="ir-competicion-div">
+                    <a class="ir-competicion" href="#"> Ver Competición completa <img class="navigate-next" src="PNGs/navigate_next.svg" width="20px" height="20px"></a>
+                </div>
+            </div>
+            <div class="standings">
+                <h4>POSICIONES</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-posicion">#</td>
+                        <td class="td-club">Club</td>
+                        <td class="td-pj">PJ</td>
+                        <td class="td-dg">DG</td>
+                        <td class="td-puntos">Pts</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">1</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #58A0BF">2</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #58A0BF">3</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">4</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">5</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #F0BE99">6</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #F0BE99">7</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #EE9898;">8</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                </table>
+                <div class="referencias">
+                    <div class="ascenso">Ascenso</div>
+                    <div class="promocion-ascenso">Promocion vs A</div>
+                    <div class="promocion-descenso">Promocion vs B</div>
+                    <div class="descenso">Descenso</div>
+                </div>
+            </div>
+        </div>
+        <div class="league-box">
+            <h1>LIGA C</h1>
+            <div class="last-games">
+                <h4>ÚLTIMOS PARTIDOS</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-carga">Cargado</td>
+                        <td class="td-fecha">Fecha</td>
+                        <td class="td-local">Equipo Local</td>
+                        <td class="td-resultado-title"></td>
+                        <td class="td-visitante">Equipo Visitante</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                </table>
+                <div class="ir-competicion-div">
+                    <a class="ir-competicion" href="#"> Ver Competición completa <img class="navigate-next" src="PNGs/navigate_next.svg" width="20px" height="20px"></a>
+                </div>
+            </div>
+            <div class="standings">
+                <h4>POSICIONES</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-posicion">#</td>
+                        <td class="td-club">Club</td>
+                        <td class="td-pj">PJ</td>
+                        <td class="td-dg">DG</td>
+                        <td class="td-puntos">Pts</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">1</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #58A0BF">2</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #58A0BF">3</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">4</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">5</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #F0BE99">6</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #F0BE99">7</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #EE9898;">8</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                </table>
+                <div class="referencias">
+                    <div class="ascenso">Ascenso</div>
+                    <div class="promocion-ascenso">Promocion vs B</div>
+                    <div class="promocion-descenso">Promocion vs C</div>
+                    <div class="descenso">Descenso</div>
+                </div>
+            </div>
+        </div>
+        <div class="league-box">
+            <h1>LIGA D</h1>
+            <div class="last-games">
+                <h4>ÚLTIMOS PARTIDOS</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-carga">Cargado</td>
+                        <td class="td-fecha">Fecha</td>
+                        <td class="td-local">Equipo Local</td>
+                        <td class="td-resultado-title"></td>
+                        <td class="td-visitante">Equipo Visitante</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                </table>
+                <div class="ir-competicion-div">
+                    <a class="ir-competicion" href="#"> Ver Competición completa <img class="navigate-next" src="PNGs/navigate_next.svg" width="20px" height="20px"></a>
+                </div>
+            </div>
+            <div class="standings">
+                <h4>POSICIONES</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-posicion">#</td>
+                        <td class="td-club">Club</td>
+                        <td class="td-pj">PJ</td>
+                        <td class="td-dg">DG</td>
+                        <td class="td-puntos">Pts</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">1</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #58A0BF">2</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #58A0BF">3</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">4</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">5</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #F0BE99">6</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #F0BE99">7</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #EE9898;">8</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                </table>
+                <div class="referencias">
+                    <div class="ascenso">Ascenso</div>
+                    <div class="promocion-ascenso">Promocion vs C</div>
+                    <div class="promocion-descenso">Promocion vs D</div>
+                    <div class="descenso">Descenso</div>
+                </div>
+            </div>
+        </div>
+        <div class="league-box">
+            <h1>LIGA E</h1>
+            <div class="last-games">
+                <h4>ÚLTIMOS PARTIDOS</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-carga">Cargado</td>
+                        <td class="td-fecha">Fecha</td>
+                        <td class="td-local">Equipo Local</td>
+                        <td class="td-resultado-title"></td>
+                        <td class="td-visitante">Equipo Visitante</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-carga">04/03/2023</td>
+                        <td class="td-fecha">8</td>
+                        <td class="td-local">Uynose <img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                        <td class="td-resultado">2:0</td>
+                        <td class="td-visitante"><img src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                    </tr>
+                </table>
+                <div class="ir-competicion-div">
+                    <a class="ir-competicion" href="#"> Ver Competición completa <img class="navigate-next" src="PNGs/navigate_next.svg" width="20px" height="20px"></a>
+                </div>
+            </div>
+            <div class="standings">
+                <h4>POSICIONES</h4>
+                <table>
+                    <tr class="white">
+                        <td class="td-posicion">#</td>
+                        <td class="td-club">Club</td>
+                        <td class="td-pj">PJ</td>
+                        <td class="td-dg">DG</td>
+                        <td class="td-puntos">Pts</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #6CBF58">1</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion" style="background-color: #58A0BF">2</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion" style="background-color: #58A0BF">3</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">4</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">5</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">6</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="Grey">
+                        <td class="td-posicion">7</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                    <tr class="white">
+                        <td class="td-posicion">8</td>
+                        <td class="td-club"><img class="clubs-icons" src="Escudos/No Room.png" width="20px" height="20px">No Room</td>
+                        <td class="td-pj">13</td>
+                        <td class="td-dg">25</td>
+                        <td class="td-puntos">35</td>
+                    </tr>
+                </table>
+                <div class="referencias">
+                    <div class="ascenso">Ascenso</div>
+                    <div class="promocion-ascenso">Promocion vs D</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,688 @@
+html{
+    background-color: #EAEAEA;
+}
+
+.sticky-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-div{
+    background-color: #D9D9D9;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    float: left;
+    width: 15%;
+}
+
+.header-logo img{
+    margin-left: 25px;
+}
+
+.redes{
+    float: left;
+    width: 45%;
+}
+
+.header-search{
+    float: right;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.header-search input{
+    width: 60%;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    margin-left: 40%;
+}
+
+nav{
+    float: left;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 0 0 0 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.li-button{
+    float: right;
+    padding: 0 0 0 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login{
+    margin-top: 3px;
+    margin-right: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #64C7EB;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.login img{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(7deg) brightness(102%) contrast(106%);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #64C7EB;
+}
+
+.icon-home{
+    filter: invert(99%) sepia(0%) saturate(1062%) hue-rotate(172deg) brightness(114%) contrast(100%);
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.expand-more{
+    filter: invert(99%) sepia(0%) saturate(1062%) hue-rotate(172deg) brightness(114%) contrast(100%);
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+nav ul li:hover > a .expand-more {
+    filter: invert(76%) sepia(81%) saturate(1620%) hue-rotate(167deg) brightness(102%) contrast(84%);;
+}
+
+nav ul li:hover > a .icon-home {
+    filter: invert(76%) sepia(81%) saturate(1620%) hue-rotate(167deg) brightness(102%) contrast(84%);;
+}
+
+body{
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+}
+
+.league-box{
+    background-color: #EAEAEA;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.league-box h1{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.last-games{
+    width: 51%;
+    margin-bottom: 10px;
+    margin-right: 4%;
+    margin-left: 2%;
+    background-color: white;
+    height: fit-content;
+}
+
+.last-games table {
+    border: 2px solid white;
+}
+
+.standings{
+    width: 35%;
+    margin-right: 6%;
+    margin-bottom: 10px;
+    background-color: white;
+    height: fit-content;
+}
+
+.standings table {
+    border: 2px solid white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-indent: 5px;
+}
+
+.last-games h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 5px;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: #83B4DB;
+}
+
+.standings h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 5px;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: #83B4DB;
+}
+
+tr {
+    height: 26px;
+}
+
+.td-carga{
+    width: 15%;
+}
+
+.td-fecha{
+    width: 15%;
+}
+
+.td-local{
+    width: 30%;
+}
+
+.td-resultado{
+    width: 10%;
+    text-indent: 0;
+    background-color: #64C7EB;
+    color: white;
+}
+
+.td-resultado-title{
+    width: 10%;
+    text-indent: 0;
+}
+
+.td-visitante{
+    width: 30%;
+}
+
+td{
+    text-align: center;
+}
+
+.Grey{
+    background-color: #D9D9D9;
+}
+
+.td-posicion{
+    width: 5%;
+    text-align: left;
+}
+
+.td-club{
+    width: 60%;
+    text-align: left;
+}
+
+.td-pj{
+    width: 11.25%;
+    text-align: center;
+}
+
+.td-dg, .td-g{
+    width: 11.25%;
+    text-align: center;
+}
+
+.goleadores-tabla .td-posicion{
+    width: 40%;
+    text-align: left;
+    margin-left: 2%;
+    color: #64C7EB;
+}
+
+.goleadores-tabla .td-club{
+    width: 10%;
+    text-align: center;
+}
+
+.goleadores-tabla .td-pj{
+    width: 40%;
+    text-align: center;
+}
+
+.goleadores-tabla .td-g{
+    width: 10%;
+    text-align: center;
+}
+
+.td-puntos{
+    width: 12.5%;
+    text-align: center;
+}
+
+.clubs-icons{
+    vertical-align: bottom;
+    margin-right: 2%;
+}
+
+a .ir-competicion:hover{
+    color: #00ADED;
+}
+
+.ir-competicion{
+    color: #83B4DB;
+}
+
+.navigate-next{
+    filter: invert(78%) sepia(13%) saturate(1321%) hue-rotate(177deg) brightness(86%) contrast(99%);
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.navigate-next:hover{
+    filter: invert(76%) sepia(81%) saturate(1620%) hue-rotate(167deg) brightness(102%) contrast(84%);;
+}
+
+.ir-competicion-div{
+    clear: both; 
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ir-competicion {
+    margin-top: 1%;
+}
+
+.referencias{
+    clear: both;
+    background-color: #EAEAEA;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ascenso{
+    width: 45%;
+    margin-left: 0.5%;
+    margin-right: 4.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6CBF58;
+}
+
+.promocion-ascenso{
+    width: 45%;
+    margin-left: 4.5%;
+    margin-right: 0.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #58A0BF;
+}
+
+.promocion-descenso{
+    width: 45%;
+    margin-left: 0.5%;
+    margin-right: 4.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0BE99;
+}
+
+.descenso{
+    width: 45%;
+    margin-left: 4.5%;
+    margin-right: 0.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE9898;
+}
+
+.promocion-descenso-a{
+    width: 45%;
+    margin-left: 4.5%;
+    margin-right: 0.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0BE99;
+}
+
+.descenso-a{
+    width: 45%;
+    margin-left: 0.5%;
+    margin-right: 4.5%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EE9898;
+}
+
+.detalle-liga{
+    background-color: #EAEAEA;
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.detalle-liga .liga-mas-logo h1{
+    width: 100%;
+    margin-bottom: 1px;
+    margin-left: 25px;
+}
+
+.liga-mas-logo{
+    width: 20%;
+}
+
+.estadistica-liga{
+    width: 65%;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #D9D9D9;
+}
+
+.nivel-competicion{
+    width: 40%;
+    margin-bottom: 2%;
+}
+
+.nivel-competicion h4, .categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ultimo-campeon{
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.ultimo-campeon h4, .logo-campeon-A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mayor-ganador{
+    width: 30%;
+    margin-bottom: 2%;
+}
+
+.mayor-ganador h4, .logo-mayor-ganador-A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estadistica-liga h4{
+    font-weight: normal;
+}
+
+.estadistica-liga h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #83B4DB;
+}
+
+.detalle-completo-liga{
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.fixture{
+    width: 58%;
+    background-color: #EAEAEA;
+    box-sizing: border-box;
+    height: fit-content;
+}
+
+.tabla-liga{
+    box-sizing: border-box;
+    width: 41%;
+    margin-left: 1%;
+}
+
+.tabla-liga .posiciones-tabla, .tabla-liga .goleadores-tabla, .fixture{
+    border: 2px solid #EAEAEA;
+    margin-bottom: 5%;
+}
+
+.posiciones-tabla table, .goleadores-tabla table {
+    height: fit-content;
+}
+
+.tabla-liga .posiciones-tabla h4, .tabla-liga .goleadores-tabla h4, .filtros-fixture .titulo-fixture h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 5px;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: #83B4DB;
+}
+
+.tabla-liga .posiciones-tabla .td-posicion{
+    width: 5%;
+    text-align: left;
+}
+
+.tabla-liga .posiciones-tabla .td-club{
+    width: 48%;
+    margin-left: 2%;
+    text-align: left;
+    color: #64C7EB;
+}
+
+.tabla-liga .posiciones-tabla .td-pj{
+    width: 16.25%;
+    text-align: center;
+}
+
+.tabla-liga .posiciones-tabla .td-dg{
+    width: 16.25%;
+    text-align: center;
+}
+
+.tabla-liga .posiciones-tabla .td-puntos{
+    width: 12.5%;
+    text-align: center;
+}
+
+.filtro-temporada{
+    background-color: white;
+    clear: both;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+.filtro-temporada .filtro h4{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 26px;
+}
+
+.filtro-temporada .fecha h4{
+    width: 23%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 26px;
+}
+
+.filtro-temporada .filtro form{
+    width: 60%;
+    margin-top: 1.5%;
+}
+
+.filtro-temporada .fecha form{
+    width: 46.965%;
+    margin-top: 1.5%;
+    margin-left: 6.25%;
+}
+
+.filtro-temporada .fecha select{
+    width: 63.875%;
+    margin-left: 23%;
+}
+
+.filtro-temporada form select{
+    width: 50%;
+    height: 25px;
+    color: #00ADED;
+}
+
+.filtro-temporada .filtro, .filtro-temporada .fecha, .filtro-temporada form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reporte-partido .resultado-final img{
+    width: 30px;
+    height: 40px;
+    justify-content: center;
+}
+
+.reporte-partido{
+    padding-top: 3%;
+}
+
+.resultado-final, .fecha-resultado, .eventos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 1%;
+}
+
+.resultado-final div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado-final .resultado{
+    height: 25px;
+    width: 35px;
+    background-color: #64C7EB;
+    color: white;
+}
+
+.reporte-partido .resultado-final .equipo-local h3{
+    margin-right: 10%;
+    color: #64C7EB;
+}
+
+.reporte-partido .resultado-final .equipo-visitante h3{
+    margin-left: 10%;
+    color: #64C7EB;
+}
+
+.reporte-partido .resultado-final .equipo-local, .reporte-partido .resultado-final .equipo-visitante{
+    width: 25%;
+}
+
+.celeste{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #83B4DB;
+}
+
+.eventos .jugador-local{
+    width: 30%;
+    text-align: right;
+    color: #64C7EB;
+}
+
+.eventos .icono{
+    width: 5%;
+}
+
+.eventos .icono img{
+    width: 15px;
+    height: 15px;
+}
+
+.eventos .minuto{
+    width: 5%;
+}   
+
+.eventos .resultado{
+    width: 20%;
+    font-weight: bold;
+}
+
+.eventos .jugador-visitante{
+    width: 30%;
+    text-align: left;
+    color: #64C7EB;
+}
+.evento{
+    background-color: #D9D9D9;
+}
+
+.filtros-fixture form .filtrar-input{
+    background-color: #64C7EB;
+    width: 11%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

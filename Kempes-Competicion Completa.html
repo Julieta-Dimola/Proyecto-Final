@@ -1,0 +1,471 @@
+<html>
+    <head>
+        <title>Kempes - Liga A</title>
+        <link rel="stylesheet" type="text/css" href="Estilos.css">
+        <meta charset="utf-8">
+        <link rel="icon" href="Escudos/Logo-Kempes-(Anti-patria).png">
+    </head>
+    <body>
+        <header class="sticky-header">
+            <div class="header-div">
+                <div class="header-logo">
+                    <a href="Kempes-Home.html"><img src="Escudos/Logo-Kempes-(Anti-patria).png" width="95px" height="95px"></a>
+                </div>
+                <div class="redes">
+                    <img src="PNGs/twitch.png" width="30px" height="30px">
+                    <img src="PNGs/twitter.png" width="30px" height="30px">
+                    <img src="PNGs/instagram.png" width="30px" height="30px">
+                </div>
+                <div class="header-search">
+                    <input type="search" placeholder="Ingresa Equipo, Jugador, División..." size="30" maxlength="60">
+                    <img src="PNGs/search.svg" width="30px" height="30px">
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Kempes-Home.html"> <img class="icon-home" src="PNGs/home.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">COMPETICIONES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">CLUBES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                        <a href="#">JUGADORES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li>
+                    <a href="#">TRANSFERENCIAS <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    </li>
+                    <li class="li-button">
+                        <button class="login"><img src="PNGs/person.svg"> Iniciar Sesión </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="detalle-liga">
+            <div class="liga-mas-logo">
+                <h1>LIGA A</h1>
+                <div class="logo-provisorio"> 
+                    <img src="PNGs/Logo LIGA A Provisorio.png" width="250px" height="200px"> <!-- No pude resolver colocar el logo tal cual estaba en el prototipo -->
+                </div>
+            </div>
+            <div class="estadistica-liga">
+                <div class="nivel-competicion">
+                    <h4>Nivel de competición:</h4>
+                    <div class="categoria">
+                        <h1>Máxima Categoría</h1>
+                    </div>
+                </div>
+                <div class="ultimo-campeon">
+                    <h4>Último Campeón:</h4>
+                    <h2>Uynose</h2>
+                    <div class="logo-campeon-A">
+                        <img src="Escudos/UyNoSe.jpeg" width="100px" height="100px">
+                    </div>
+                </div>
+                <div class="mayor-ganador">
+                    <h4>Mayor ganador:</h4>
+                    <h2>A la tibia</h2>
+                    <div class="logo-mayor-ganador-A">
+                        <img src="Escudos/A la tibia.png" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="detalle-completo-liga">
+            <div class="fixture">
+                <div class="filtros-fixture">
+                    <div class="titulo-fixture">
+                        <h4>FIXTURE TEMPORADA 22/23</h4>
+                    </div>
+                    <div class="filtro-temporada">
+                        <div class="filtro">
+                            <h4>Filtrar por temporada:</h4>
+                            <form>
+                                <select name="temporadas">
+                                    <option value="22/23">22/23</option>
+                                    <option value="23/24">23/24</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="fecha">
+                            <h4>Seleccionar fecha:</h4>
+                            <form>
+                                <select name="fechas">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </form>
+                        </div>
+                        <form class="filtrar-form">
+                            <input class="filtrar-input "type="submit" value="Filtrar">
+                        </form>
+                    </div>
+                </div>
+                <div class="reporte-partido">
+                    <div class="resultado-final">
+                        <div class="equipo-local">
+                            <h3>Uynose</h3>
+                            <img src="Escudos/UyNoSe.jpeg">
+                        </div>
+                        <div class="resultado">
+                            2:0
+                        </div>
+                        <div class="equipo-visitante">
+                            <img src="Escudos/A la tibia.png">
+                            <h3>A la tibia</h3>
+                        </div>
+                    </div>
+                    <div class="fecha-resultado">
+                        Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                    </div>
+                    <div class="eventos">
+                        <table>
+                            <tr class="partido">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">Eventos</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">50'</td>
+                                <td class="resultado">1:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">55'</td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto">55'</td>
+                                <td class="icono"><img src="PNGs/roja.png"></td>
+                                <td class="jugador-visitante">Inserte nombre</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="reporte-partido">
+                    <div class="resultado-final">
+                        <div class="equipo-local">
+                            <h3>Uynose</h3>
+                            <img src="Escudos/UyNoSe.jpeg">
+                        </div>
+                        <div class="resultado">
+                            2:0
+                        </div>
+                        <div class="equipo-visitante">
+                            <img src="Escudos/A la tibia.png">
+                            <h3>A la tibia</h3>
+                        </div>
+                    </div>
+                    <div class="fecha-resultado">
+                        Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                    </div>
+                    <div class="eventos">
+                        <table>
+                            <tr class="partido">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">Eventos</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">50'</td>
+                                <td class="resultado">1:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">55'</td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto">55'</td>
+                                <td class="icono"><img src="PNGs/roja.png"></td>
+                                <td class="jugador-visitante">Inserte nombre</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="reporte-partido">
+                    <div class="resultado-final">
+                        <div class="equipo-local">
+                            <h3>Uynose</h3>
+                            <img src="Escudos/UyNoSe.jpeg">
+                        </div>
+                        <div class="resultado">
+                            2:0
+                        </div>
+                        <div class="equipo-visitante">
+                            <img src="Escudos/A la tibia.png">
+                            <h3>A la tibia</h3>
+                        </div>
+                    </div>
+                    <div class="fecha-resultado">
+                        Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                    </div>
+                    <div class="eventos">
+                        <table>
+                            <tr class="partido">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">Eventos</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">50'</td>
+                                <td class="resultado">1:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">55'</td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto">55'</td>
+                                <td class="icono"><img src="PNGs/roja.png"></td>
+                                <td class="jugador-visitante">Inserte nombre</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="reporte-partido">
+                    <div class="resultado-final">
+                        <div class="equipo-local">
+                            <h3>Uynose</h3>
+                            <img src="Escudos/UyNoSe.jpeg">
+                        </div>
+                        <div class="resultado">
+                            2:0
+                        </div>
+                        <div class="equipo-visitante">
+                            <img src="Escudos/A la tibia.png">
+                            <h3>A la tibia</h3>
+                        </div>
+                    </div>
+                    <div class="fecha-resultado">
+                        Sábado, <span class="celeste">4 de Marzo 2023</span>- 15:30
+                    </div>
+                    <div class="eventos">
+                        <table>
+                            <tr class="partido">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">Eventos</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">50'</td>
+                                <td class="resultado">1:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local">Inserte nombre</td>
+                                <td class="icono"><img src="PNGs/pelota.png"></td>
+                                <td class="minuto">55'</td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto"></td>
+                                <td class="icono"></td>
+                                <td class="jugador-visitante"></td>
+                            </tr>
+                            <tr class="evento">
+                                <td class="jugador-local"></td>
+                                <td class="icono"></td>
+                                <td class="minuto"></td>
+                                <td class="resultado">2:0</td>
+                                <td class="minuto">55'</td>
+                                <td class="icono"><img src="PNGs/roja.png"></td>
+                                <td class="jugador-visitante">Inserte nombre</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="tabla-liga">
+                <div class="posiciones-tabla">
+                    <h4>TABLA LIGA A 22/23</h4>
+                    <table>
+                        <tr class="Grey">
+                            <td class="td-posicion">#</td>
+                            <td class="td-club" style="color: black;">Club</td>
+                            <td class="td-pj">Partidos Jugados</td>
+                            <td class="td-dg">Diferencia de Goles</td>
+                            <td class="td-puntos">Puntos</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">1</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px">Uynose</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">2</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/A la tibia.png" width="20px" height="20px">A la tibia</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">3</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Apurofideo.png" width="20px" height="20px">Apurofideo</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">4</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Cebollitas.png" width="20px" height="20px">Cebollitas</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">5</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Provincianos FC - Cletus.png" width="20px" height="20px">Provincianos FC</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">6</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Tercera Posición FC.png" width="20px" height="20px">Tercera Posición FC</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">7</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Tiki-Tiki.png" width="20px" height="20px">Tiki-tiki</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">8</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Champagne Rose.png" width="20px" height="20px">Champagne Rose</td>
+                            <td class="td-pj">13</td>
+                            <td class="td-dg">25</td>
+                            <td class="td-puntos">35</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="goleadores-tabla">
+                    <h4>TABLA DE GOLES 22/23</h4>
+                    <table>
+                        <tr class="Grey">
+                            <td class="td-posicion" style="color: black">Jugador</td>
+                            <td class="td-club" style="color: black;">Club</td>
+                            <td class="td-pj">Partidos Jugados</td>
+                            <td class="td-g"><img src="PNGs/pelota.png" width="20px" height="20px"></td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/UyNoSe.jpeg" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/A la tibia.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Apurofideo.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Cebollitas.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Provincianos FC - Cletus.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Tercera Posición FC.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Tiki-Tiki.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                        <tr>
+                            <td class="td-posicion">Inserte nombre</td>
+                            <td class="td-club"><img class="clubs-icons" src="Escudos/Champagne Rose.png" width="20px" height="20px"></td>
+                            <td class="td-pj">13</td>
+                            <td class="td-g">25</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
