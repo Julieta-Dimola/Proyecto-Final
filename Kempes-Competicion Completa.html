@@ -4,8 +4,10 @@
         <link rel="stylesheet" type="text/css" href="Estilos.css">
         <meta charset="utf-8">
         <link rel="icon" href="Escudos/Logo-Kempes-(Anti-patria).png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     </head>
-    <body>
+    </head>
+    <body class="cuerpazo">
         <header class="sticky-header">
             <div class="header-div">
                 <div class="header-logo">
@@ -21,22 +23,22 @@
                     <img src="PNGs/search.svg" width="30px" height="30px">
                 </div>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="Kempes-Home.html"> <img class="icon-home" src="PNGs/home.svg" width="30px" height="30px"></a>
+            <nav class="clase-navegador">
+                <ul class="clase-navegador-ul">
+                    <li class="clase-navegador-li">
+                        <a class="links-navegacion" href="Kempes-Home.html"> <img class="icon-home" src="PNGs/home.svg" width="30px" height="30px"></a>
                     </li>
-                    <li>
-                        <a href="#">COMPETICIONES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    <li class="clase-navegador-li">
+                        <a class="links-navegacion" href="#">COMPETICIONES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
                     </li>
-                    <li>
-                        <a href="#">CLUBES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    <li class="clase-navegador-li">
+                        <a class="links-navegacion" href="#">CLUBES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
                     </li>
-                    <li>
-                        <a href="#">JUGADORES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    <li class="clase-navegador-li">
+                        <a class="links-navegacion" href="#">JUGADORES <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
                     </li>
-                    <li>
-                    <a href="#">TRANSFERENCIAS <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
+                    <li class="clase-navegador-li">
+                        <a class="links-navegacion" href="#">TRANSFERENCIAS <img class="expand-more" src="PNGs/expand_more.svg" width="30px" height="30px"></a>
                     </li>
                     <li class="li-button">
                         <button class="login"><img src="PNGs/person.svg"> Iniciar Sesión </button>
@@ -55,7 +57,7 @@
                 <div class="nivel-competicion">
                     <h4>Nivel de competición:</h4>
                     <div class="categoria">
-                        <h1>Máxima Categoría</h1>
+                        <h1 class="text-center">Máxima Categoría</h1>
                     </div>
                 </div>
                 <div class="ultimo-campeon">
@@ -76,32 +78,36 @@
         </div>
         <div class="detalle-completo-liga">
             <div class="fixture">
-                <div class="filtros-fixture">
+                <div class="filtros-fixture col-12">
                     <div class="titulo-fixture">
                         <h4>FIXTURE TEMPORADA 22/23</h4>
                     </div>
-                    <div class="filtro-temporada">
-                        <div class="filtro">
-                            <h4>Filtrar por temporada:</h4>
-                            <form>
-                                <select name="temporadas">
+                    <div class="container filtro-temporada">
+                        <div class="row filtro p-2">
+                            <h4 for="" class="col-form-label col-6">Filtrar por temporada:</h4>
+                            <div class="col-6">
+                                <select name="temporadas" class="form-select">
+                                    <option selected>Elige una temporada</option>
                                     <option value="22/23">22/23</option>
                                     <option value="23/24">23/24</option>
                                 </select>
-                            </form>
+                            </div>
                         </div>
-                        <div class="fecha">
-                            <h4>Seleccionar fecha:</h4>
-                            <form>
-                                <select name="fechas">
+                        <div class="row filtro p-2">
+                            <h4 for="" class="col-form-label col-6">Seleccionar fecha:</h4>
+                            <div class="col-6">
+                                <select name="fechas" class="form-select">
+                                    <option selected>Elige una fecha</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                 </select>
-                            </form>
+                            </div>
                         </div>
-                        <form class="filtrar-form">
-                            <input class="filtrar-input "type="submit" value="Filtrar">
-                        </form>
+                        <div class="row justify-content-md-center">
+                            <div class="col-auto">
+                                <button class="btn btn-primary" type="submit">Filtrar</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="reporte-partido">
