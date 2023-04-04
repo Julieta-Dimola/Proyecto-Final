@@ -420,19 +420,12 @@ a .ir-competicion:hover{
     margin-left: 25px;
 }
 
-.liga-mas-logo{
-    width: 20%;
-}
-
 .estadistica-liga{
-    width: 65%;
-    margin-left: 10%;
-    margin-right: 5%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #D9D9D9;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    background-color: #D9D9D9;
 }
 
 .nivel-competicion{
@@ -449,6 +442,7 @@ a .ir-competicion:hover{
 .ultimo-campeon{
     width: 30%;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .ultimo-campeon h4, .logo-campeon-A{
@@ -497,7 +491,6 @@ a .ir-competicion:hover{
 
 .tabla-liga{
     box-sizing: border-box;
-    width: 41%;
     margin-left: 1%;
 }
 
@@ -696,4 +689,123 @@ a .ir-competicion:hover{
     border: 1px solid transparent!important;
     color: white!important;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)!important;
+}
+
+/* Aspecto para dispositivos mobile */
+
+@media screen and (max-width:768px){
+    .header-div{
+        background-color: black;
+        border-bottom: 1px solid black;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+        height: 80px;
+    }
+    .clase-navegador, .redes, .display-only-desktop{
+        display: none;
+    }
+    .last-games, .standings, .fixture, .posiciones-tabla, .goleadores-tabla{
+        width: 100%;
+    }
+    .nivel-competicion{
+        width: 100%;
+    }
+    .ultimo-campeon, .mayor-ganador{
+        width: 50%;
+    }
+    .search-icon{
+        filter: invert(69%) sepia(60%) saturate(494%) hue-rotate(163deg) brightness(97%) contrast(89%);
+    }
+    .sticky-header{
+        padding-bottom: 20px;
+    }
+    .standings{
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    .equipo-local, .equipo-visitante{
+        flex-grow: 1;
+    }
+    .liga-mas-logo{
+        width: 30%;
+    }
+    .estadistica-liga{
+        width: 69%;
+    }
+}
+
+/* Elementos que no apareceran si la resolución es Desktop */
+
+@media screen and (min-width:768px){
+    .display-only-mobile{
+      display: none;
+    }
+    .tabla-liga{
+        width: 41%;
+    }
+    .estadistica-liga{
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 65%; 
+    }
+    .liga-mas-logo{
+        width: 20%;
+    }
+}
+
+/* Acá continuo el código general */
+
+.menu-hamburguesa-icon, .login-solo-icon{
+    filter: invert(69%) sepia(60%) saturate(494%) hue-rotate(163deg) brightness(97%) contrast(89%);
+}
+
+.sarlanga{
+    flex-grow: 1;
+    width: 8.5%;
+    text-align: center;
+}
+
+.cualquiera{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-cualquiera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cualquiera-1{
+    width: auto;
+}
+
+.cualquiera-1 .sarlanga{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.sarlanga-1{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.sarlanga-1 input{
+    width: 100%;
+    border: none;
+}
+
+.sarlanga-1 image{
+    margin-left: 5px;
+}
+
+.logo-provisorio img{
+    max-width: 100%;
+    height: auto;
 }
